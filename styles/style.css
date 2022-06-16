@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2 {
+    color: rgb(68, 108, 140);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tituloIndex {
+    color: rgb(251, 251, 252) ;
+    background-color: rgb(123, 90, 134);
+    text-align: center;
+    padding: 20px;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30PX;
+
+    
+}
+
+.imagenPrincipal{
+    height: 500px;
+    background-image: url('../img/computadora-enchulada.jpeg');
+    background-attachment: fixed;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header {
+    background-color: rgb(123, 90, 134);
+    color: aliceblue;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+
+.sobrecarolass {
+    text-align: center;
+    color: rgb(251, 251, 252) ;
+    background-color: rgb(180, 124, 124);
+    padding: 20px;
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+
+
+.chusmeame {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.envios { 
+    text-align: center;
+    color: rgb(251, 251, 252) ;
+    background-color: rgb(118, 182, 162) ;
+    padding: 20px;
+    line-height: 1;
+}
+
+.parrafoenvios {
+    text-align: justify;
+    padding: 20px;
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.contacto {
+    text-align: center;
+    color: rgb(251, 251, 252) ;
+    background-color:rgb(199, 159, 115) ;
+    padding: 20px;
+    line-height: 1;
+}
+
+.parrafocontacto {
+    padding: 30px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif; color: #FFFF;
+}
+
+.form {
+    background-image: url('../img/stickers\ en\ libro.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario__campo {
+    display: flex;
+    gap: 10px;
+}
+
+.formulario__campo label {
+    width: 200px;
+}
+
+.formulario__campo input, .formulario__campo textarea {
+    padding: 5px 10px;
+}
+
+.formulario__boton {
+    width: 200px;
+}
+
+.productos {
+    text-align: center;
+    color: rgb(251, 251, 252) ;
+    background-color:rgb(127, 156, 180) ;
+    padding: 20px;
+    line-height: 1;
+
+}
+
+.parrafoproductos {
+    text-align: justify;
+    padding: 20px;
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tablaDeProducto {
+    font-family: Arial, Helvetica, sans-serif;
+    border:  1px #1d0718 solid; 
+    margin-top: 20px;
+
+}
+
+
+.section .chusmeame {
+    display: block;
+    margin: 30px;
+
+}
+
+.section .imagen {
+    display: inline;
+    width: 200px;
+}
+
+.imagenes {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px;
+    margin: 30px;
+    background-color: rgb(123, 90, 134);
+}
+
+
+
+.imagenLogo {
+    width: 100px;
+    display: inline-block;
+}
+
+.cardsEnvios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    gap: 30px;
+    align-items: flex-start;
+
+}
+
+.cardEnvios {
+    background-color: #89a7c1;
+    padding: 10px;
+}
+
+.card__envio {
+    display: grid;
+    max-width: 100%;
+
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    gap: 30px;
+    align-items: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.card {
+    background-color: #89a7c1;
+    padding: 10px;
+}
+.card__img {
+    display: grid;
+    max-width: 100%;
+    
+}
+
+.imagenCarolaCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    gap: 30px;
+}
+
+.imagenCarola1 {
+    background-color: #89a7c1;
+    padding: 10px;
+
+
+}
+
+.imagenCarola {
+    display: grid;
+    max-width: 100%;
+    transform: translateX(30px);
+    width: 500px ;
+    height: 500px;
+   
+
+}
+
+header { 
+    z-index: 1
+}
+.parrafosobrecarolasss {
+    display: grid;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.whatsapp {
+    width: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.imagen{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+
+.cardProducts { 
+    padding: 100px;
+
+}
+
+.cardProduct {
+    width: 30%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: rgb(123, 90, 134) ;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.cardProduct__img { 
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.cardProduct__title {
+    margin-bottom: 10px;
+    color: antiquewhite
+}
+
+.cardProduct__description {
+    margin-bottom: 10px;
+    color: antiquewhite;
+}
+
+.cardProduct__button {
+    border: 0;
+    border-radius: 5px;
+    background-color: floralwhite;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+footer{
+
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "inicio sobre productos"
+        "inicio contacto envios";
+}
+
+
+
+
+
+nav {
+    flex-grow: 1;
+}
+
+.menu__item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu__item a {
+    color: #FFFF;
+    text-decoration: none;
+
+}
+
+.item_inicio {
+    background-color: rgb(123, 90, 134);
+    grid-area: inicio;
+}
+
+.item_sobre {
+    background-color: rgb(180, 124, 124);
+    grid-area: sobre;
+
+}
+
+.item_productos {
+    background-color: rgb(127, 156, 180);
+    grid-area: productos;
+}
+
+.item_contacto {
+    background-color: rgb(199, 159, 115);
+    grid-area: contacto;
+}
+
+.item_envios {
+    background-color: rgb(119, 191, 168);
+    grid-area: envios;
+}
+
+@media screen and (max-width: 648px) {
+    .menu{
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "inicio sobre"
+            "inicio productos"
+            "inicio contacto"
+            "inicio envios";
+}
+    .imagenCarolaCards{
+        grid-template-columns: 1fr;
+        
+       
+    
+    }
+
+    .imagenCarola{
+        transform: translateX(20px);
+        max-width: 100%;
+    }
+
+    .cards {
+        grid-template-columns: 1fr 
+
+    }
+    
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .cardProduct {
+        width: 90%;
+        display: block;
+    }
+
+    textarea {
+        max-width: 100%;
+    }
+
+    .formulario__campo {
+        max-width: 100%;
+
+    }
+}
+
+
+.cardProduct__button:hover {background-color:rgb(127, 156, 180);}
+
+.card__button:hover {background-color:rgb(123, 90, 134);}
